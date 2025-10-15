@@ -1,0 +1,9 @@
+Explication pour l'étape 13
+- `"watch": ["src"]` : Surveille le dossier `src` pour les changements.
+- `"ext": "ts"` : Extension des fichiers à surveiller : TypeScript (.ts).
+- `"exec": "ts-node -r dotenv/config src/index.ts"` : Commande d'exécution : utilise ts-node
+
+Explication des scripts dans l'etape 15:
+- "start": "node dist/index.js" : Lance l'application compilée en production.
+- "dev": "nodemon src/index.ts" : Lance le serveur en mode développement avec rechargement automatique.
+- "build": "tsc" : Compile le TypeScript en JavaScript dans le dossier dist.
